@@ -1,0 +1,113 @@
+.App {
+  width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:not(:first-child) {
+  margin-top: 15px;
+}
+
+.CreatePost[class] {
+  width: 150px;
+  height: 40px;
+  margin-left: auto;
+  padding-top: 10px;
+  color: #fff;
+  background-color: #4469ae;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.postsListItem {
+  padding: 10px;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.postInfo {
+  display: flex;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.userName {
+  color: #4469ae;
+}
+
+.postDate {
+  color: grey;
+  font-size: 15px;
+}
+
+.newPost, .editPost {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px 40px 15px 15px;
+  font-size: 1.5rem;
+  resize: none;
+  border: 1px solid black
+}
+
+.cancel {
+  color: #bbb;
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.btn {
+  border: none;
+  font: inherit;
+  cursor: pointer;
+
+  width: 150px;
+  height: 45px;
+  color: #fff;
+  background-color: #4469ae;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 0 0 5px 0;
+}
+
+.delete-btn[class] {
+  width: 150px;
+  height: 38px;
+  color: #fff;
+  background-color: darkred;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 7px;
+  line-height: 1.5;
+}
